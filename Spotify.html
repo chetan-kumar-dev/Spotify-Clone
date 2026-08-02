@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Spotify.css">
+    <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="/home">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="/search">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options space">
+                    <div class="lib-option nav-option">
+                    <img src="Assets/library_icon.png" alt="library">
+                    <a id="lib" href="/library">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box-1">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p> 
+                        <button class="badge-1 hover">Create Playlist</button>
+                    </div>
+                    <div class="box-2">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p> 
+                        <button class="badge-2 hover">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="left-side">
+                    <img class="left" src="Assets/backward_icon.png">
+                    <img class="right" src="Assets/forward_icon.png"> 
+                </div>
+                <div class="right-side">
+                    <button class="btn aside hide">Explore Premium</button>
+                    <button class="btn aside dark"> <i class="fa-regular fa-circle-down"style="margin-right: 0.1rem;" ></i> Install App</button>
+                    <i id="user" class="fa-regular fa-user" class="us"></i>
+                </div>
+            </div>
+            
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="Assets/card1img.jpeg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02ad3289646d237c156134a74f">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02711c1639b4bc0f9978ae77a6">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e029bb20c6de754b89e4f4c5da3">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02848553dc16f0f7004cf66571">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02bf6c7c24a33a49a5c2f0d423">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://i.scdn.co/image/ab67616d00001e02292341cd3e621d7f9171331f">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="Assets/card2img.jpeg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="Assets/card5img.jpeg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="Assets/card6img.jpeg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/en">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right..</p>
+                    </div>
+                </div>
+        </div>
+        <div class="music-player">
+            <div class="b1">
+                <img src="https://i.scdn.co/image/ab67616d00001e02a5183fa4b99bcec1f506418d">
+                <div class="text-1 ho">Daylight</div> 
+                <p class="text-2 ho">David Kushner</p>
+                <i class="fa-regular fa-heart ho"></i>
+                <i class="fa-regular fa-rectangle-list ho"></i>
+            </div>
+            <div class="b2">
+                <div class="player-controls">
+                    <img  class="ho" src="Assets/player_icon1.png">
+                    <img  class="ho" src="Assets/player_icon2.png">
+                    <img  class="ho" src="Assets/player_icon3.png" id="middle">
+                    <img  class="ho" src="Assets/player_icon4.png">
+                    <img  class="ho" src="Assets/player_icon5.png">
+                </div>
+                
+                <div class="playback-bar">
+                    <span id="curr-time">00:00</span>
+                    <input id="music" type="range" min="0" max="100" step="1" value="20">
+                    <span class="tol-time">3:34</span>
+                </div>
+                
+            </div>
+            <div class="b3">
+                <i class="fa-regular fa-square-caret-right ho"></i>
+                <i class="fa-solid fa-microphone ho"></i>
+                <i class="fa-brands fa-ioxhost ho"></i>
+                <i class="fa-solid fa-audio-description ho"></i>
+                <i class="fa-solid fa-volume-high ho"></i>
+                <input class="vol" type="range" min="0" max="100" step="1" value="20">
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
